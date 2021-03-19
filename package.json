@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/blue-harvest-bluedev/node-js-base#readme",
   "devDependencies": {
+    "apollo-server-testing": "^2.19.0",
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.5",
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
   }
 }
