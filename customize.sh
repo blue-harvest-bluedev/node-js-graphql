@@ -60,6 +60,10 @@ replace "node-bedrock" "${APPLICATION_NAME}" "./package.json"
 replace "This is a node bedrock application" "${APPLICATION_DESCRIPTION}" "./package.json"
 echo
 
+echo '[INFO] Customizing Constants'
+replace "node-bedrock" "${APPLICATION_NAME}" "./src/constants.js"
+echo
+
 # Removing package-lock.json from .gitignore file
 echo '[INFO] Customizing .gitignore'
 replace "package-lock.json" "" "./.gitignore"
