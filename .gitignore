@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+build
+template/src/__tests__/__snapshots__/
+/.changelog
+.npm/
+
+package-lock.json

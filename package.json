@@ -1,0 +1,23 @@
+{
+  "name": "node-bedrock",
+  "version": "0.1.0",
+  "description": "This is a node bedrock application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-harvest-bluedev/node-js-base.git"
+  },
+  "author": "BlueDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blue-harvest-bluedev/node-js-base/issues"
+  },
+  "homepage": "https://github.com/blue-harvest-bluedev/node-js-base#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
